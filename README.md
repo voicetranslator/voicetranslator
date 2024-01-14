@@ -1,16 +1,42 @@
-### Hi there 👋
+<p align="center">
+  <h1 align="center">Desktop Audio Translator in Real Time- Based on AI</h1>
+</p>
 
-<!--
-**voicetranslator/voicetranslator** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+## Setup
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 1. Install with pip
+
+Available for Python 3
+
+```
+pip install voicetranslator
+```
+
+### 2. Quick start - Example
+
+Play any audio from your desktop and run this example
+
+```
+import voicetranslator
+desktop_audio=voicetranslator.Translate('en-US','es-ES')
+desktop_audio.start()
+```
+
+### 3. Languages
+
+| Languages   |    Code     | 
+|:-----------:|:-----------:|
+| English     |    en-US    |
+| Spanish     |    es-ES    |
+| French      |    fr-FR    | 
+| German      |    de-DE    | 
+| Italian     |    it-IT    | 
+| Portuguese  |    pt-PT    | 
+| Dutch       |    nl-NL    | 
+| Swedish     |    sv-SE    | 
+| Danish      |    da-DK    | 
+| Norwegian   |    no-NO    | 
+| Japanese    |    ja-JP    | 
+
+
