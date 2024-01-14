@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Desktop Audio Translator in Real Time- Based on AI</h1>
+  <h1 align="center">Desktop Audio Translator in Real Time - Based on AI</h1>
 </p>
 
 
